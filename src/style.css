@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+#logo {
+  position: relative;
+  right: 15px;
+  margin-top: 10px;
+  max-height: 40px;
+
+  background-color: white;
+}
+
+@keyframes pruebamov {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 140%;
+  }
+}
+
+@keyframes pruebamov2 {
+  from {
+    width: 140%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+  #saludo {
+    position: relative;
+    top: calc(100vh / 3);
+    left: 270px;
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    font-size: 130px;
+    font-weight: 600;
+  }
+  #texto-inicio {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  #about {
+    position: relative;
+    top: 60px;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    color: #ec5353;
+    font-family: 'Lato', sans-serif;
+    text-shadow: -4px -4px 3px rgb(216, 215, 215);
+  }
+  #perfil {
+    height: 250px;
+  }
+  #projects {
+    position: relative;
+    top: 50px;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #2c2c2c;
+    letter-spacing: 0.05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+  #linea {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    border-bottom: 2px solid #212529;
+    width: 300px;
+    border-radius: 10%;
+  }
+  #contact {
+    position: relative;
+    top: 50px;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #d5d5d5;
+    letter-spacing: 0.05em;
+  }
+}
+@media (min-width: 427px) and (max-width: 769px) {
+  #saludo {
+    position: relative;
+    top: calc(100vh / 3);
+    left: 210px;
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    font-size: 100px;
+    font-weight: 600;
+  }
+  #texto-inicio {
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  #about {
+    position: relative;
+    top: 60px;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    color: #ec5353;
+    font-family: 'Lato', sans-serif;
+    text-shadow: -4px -4px 3px rgb(216, 215, 215);
+  }
+  #perfil {
+    height: 250px;
+  }
+  #projects {
+    position: relative;
+    top: 50px;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #2c2c2c;
+    letter-spacing: 0.05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+  #linea {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    border-bottom: 2px solid #212529;
+    width: 350px;
+    border-radius: 10%;
+  }
+  #contact {
+    position: relative;
+    top: 50px;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #d5d5d5;
+    letter-spacing: 0.05em;
+  }
+}
+@media (min-width: 376px) and (max-width: 426px) {
+  #saludo {
+    position: relative;
+    top: calc(100vh / 3);
+    left: 112px;
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  #texto-inicio {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  #about {
+    position: relative;
+    top: 60px;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: #ec5353;
+    font-family: 'Lato', sans-serif;
+    text-shadow: -4px -4px 3px rgb(216, 215, 215);
+  }
+  #me {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+  }
+  #perfil {
+    height: 150px;
+  }
+  #projects {
+    position: relative;
+    top: 80px;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #2c2c2c;
+    letter-spacing: 0.05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+  #linea {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+    border-bottom: 2px solid #212529;
+    width: 250px;
+    border-radius: 10%;
+  }
+  #contact {
+    position: relative;
+    top: 50px;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #d5d5d5;
+    letter-spacing: 0.05em;
+  }
+  .card-title {
+    font-size: 14px;
+  }
+}
+@media (min-width: 321px) and (max-width: 375px) {
+  #saludo {
+    position: relative;
+    top: calc(100vh / 3);
+    left: 93px;
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  #texto-inicio {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  #about {
+    position: relative;
+    top: 60px;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: #ec5353;
+    font-family: 'Lato', sans-serif;
+    text-shadow: -4px -4px 3px rgb(216, 215, 215);
+  }
+  #me {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+  }
+  #perfil {
+    height: 150px;
+  }
+  #projects {
+    position: relative;
+    top: 80px;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #2c2c2c;
+    letter-spacing: 0.05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+  #linea {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+    border-bottom: 2px solid #212529;
+    width: 250px;
+    border-radius: 10%;
+  }
+  #contact {
+    position: relative;
+    top: 50px;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #d5d5d5;
+    letter-spacing: 0.05em;
+  }
+  .card-title {
+    font-size: 14px;
+  }
+}
+@media (max-width: 320px) {
+  #saludo {
+    position: relative;
+    top: calc(100vh / 3);
+    left: 100px;
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  #texto-inicio {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  #about {
+    position: relative;
+    top: 60px;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: #ec5353;
+    font-family: 'Lato', sans-serif;
+    text-shadow: -4px -4px 3px rgb(216, 215, 215);
+  }
+  #me {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+  }
+  #perfil {
+    height: 150px;
+  }
+  #projects {
+    position: relative;
+    top: 80px;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #2c2c2c;
+    letter-spacing: 0.05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+  #linea {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+    border-bottom: 2px solid #212529;
+    width: 250px;
+    border-radius: 10%;
+  }
+  #contact {
+    position: relative;
+    top: 50px;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #d5d5d5;
+    letter-spacing: 0.05em;
+  }
+  .card-title {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1026px) {
+  #saludo {
+    position: relative;
+    top: calc(100% / 3);
+    left: 330px;
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    font-size: 160px;
+    font-weight: 600;
+  }
+  #texto-inicio {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  #about {
+    position: relative;
+    top: 60px;
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+    color: #ec5353;
+    font-family: 'Lato', sans-serif;
+    text-shadow: -4px -4px 3px rgb(216, 215, 215);
+  }
+  #me {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+  }
+  #perfil {
+    height: 250px;
+  }
+  #projects {
+    position: relative;
+    top: 50px;
+    font-weight: 900;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #2c2c2c;
+    letter-spacing: 0.05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+  #linea {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    border-bottom: 3px solid #212529;
+    width: 400px;
+    border-radius: 10%;
+  }
+  #contact {
+    position: relative;
+    top: 50px;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #d5d5d5;
+    letter-spacing: 0.05em;
+  }
+  #email {
+    position: relative;
+    top: 50px;
+    color: white;
+    text-align: center;
+  }
+}
+@media (min-width: 769px) {
+  .card {
+    width: 60%;
+  }
+}
+#hola {
+  max-width: 50%;
+  background-color: #ec5353;
+  /* para que algo ocupe el 100% de la pantalla actual */
+  height: 98vh;
+}
+#fijo {
+  position: fixed;
+  z-index: 9999;
+  top: 0px;
+  background-color: white;
+}
+body {
+  overflow-x: hidden !important;
+}
+#borde {
+  margin-top: 40px;
+}
+#me {
+  text-align: center;
+  color: #212529;
+}
+#caja {
+  overflow: hidden;
+  margin-top: 20px;
+}
+#segundo {
+  max-width: 48%;
+  background-color: #fdfdfd;
+  z-index: -9000;
+}
+#boorar {
+  background-image: url(https://imagizer.imageshack.com/img924/9165/BmigWm.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 50em;
+  z-index: -1;
+  animation: none;
+  animation-duration: 0s;
+}
+#perfil {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 6px;
+}
+#perfil:hover {
+  opacity: 0.8;
+}
+#cv button:hover {
+  opacity: 0.8;
+}
+
+.container-fluid {
+  overflow: hidden;
+}
+#footer {
+  background-color: #212529;
+  height: 300px;
+  text-align: center;
+}
+#fondo {
+  width: 100%;
+}
+#cv button a {
+  text-align: center;
+  color: rgb(216, 215, 215);
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+}
+#cv button {
+  margin: 5px;
+  background-color: #212529;
+  border-color: #212529;
+  box-shadow: -4px -4px 3px rgb(216, 215, 215);
+}
+#cv {
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+
+#base-projects {
+  background-color: #d5d5d5;
+  padding-bottom: 250px;
+}
+#email {
+  position: relative;
+  top: 60px;
+  color: #d5d5d5;
+  text-align: center;
+}
+#email i {
+  margin-right: 15px;
+}
+#deco p a {
+  text-decoration: none;
+}
+#barra-footer {
+  border-top: 1px solid #d5d5d5;
+  background-color: #343536;
+  color: #d5d5d5;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 10px;
+}
+#barra-footer p {
+  position: relative;
+  top: 10px;
+}
+
+#cartas {
+  position: relative;
+  top: 200px;
+  padding-bottom: 50px;
+}
+.card {
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.card-title {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+}
+.card-body {
+  font-family: 'Lato', sans-serif;
+}
+.card-body a {
+  position: relative;
+  top: 10px;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: #ec5353;
+}
+.card-body a:hover {
+  text-decoration: none;
+  color: #ec5353;
+}
