@@ -502,6 +502,7 @@ body {
   z-index: -9000;
 }
 #boorar {
+  background-position: center;
   background-image: url(https://imagizer.imageshack.com/img924/9165/BmigWm.jpg);
   background-attachment: fixed;
   background-size: cover;
@@ -586,6 +587,10 @@ body {
   position: relative;
   top: 200px;
   padding-bottom: 50px;
+}
+.card img {
+  background-position: center;
+  background-size: cover;
 }
 .card {
   overflow: hidden;

@@ -141,7 +141,7 @@ export default function App() {
                 id="cv"
                 data-aos="fade-up"
                 data-aos-delay="500"
-                data-aos-offset="100"
+                data-aos-offset="50"
                 data-aos-duration="700"
               >
                 <button
@@ -151,7 +151,7 @@ export default function App() {
                   aria-pressed="false"
                 >
                   <a
-                    href="cv/CV - Franco Casuscelli ENG.pdf"
+                    href="https://drive.google.com/file/d/1s1VKueCZDlLbA--vN8B-b4YetQ-fU15C/view?usp=sharing"
                     download
                     target="_blank"
                   >
@@ -165,7 +165,7 @@ export default function App() {
                   aria-pressed="false"
                 >
                   <a
-                    href="cv/CV - Franco Casuscelli ESP.pdf"
+                    href="https://drive.google.com/file/d/1Tg45DHMbnzFsqGYo03r_Ye5Gf9jPUR0Z/view?usp=sharing"
                     download
                     target="_blank"
                   >
@@ -203,6 +203,7 @@ export default function App() {
                 >
                   <div className="card">
                     <img
+                      class="card-img-top"
                       src="https://imagizer.imageshack.com/img922/1978/TxjDLE.png"
                       alt="kitchening"
                     />
@@ -227,6 +228,7 @@ export default function App() {
                 >
                   <div className="card">
                     <img
+                      class="card-img-top"
                       src="https://imagizer.imageshack.com/img922/429/2OXADX.jpg"
                       alt="Coco"
                     />
@@ -251,6 +253,7 @@ export default function App() {
                 >
                   <div className="card">
                     <img
+                      class="card-img-top"
                       src="https://imagizer.imageshack.com/img924/9504/BZVx9i.png"
                       alt="Norman Borlaug"
                     />
@@ -275,6 +278,7 @@ export default function App() {
                 >
                   <div className="card">
                     <img
+                      class="card-img-top"
                       src="https://imagizer.imageshack.com/img922/1209/vXy6YG.png"
                       alt="Form"
                     />
@@ -299,6 +303,7 @@ export default function App() {
                 >
                   <div className="card">
                     <img
+                      class="card-img-top"
                       src="https://imagizer.imageshack.com/img924/8568/KYzAF5.png"
                       alt="trombones"
                     />
@@ -323,6 +328,7 @@ export default function App() {
                 >
                   <div className="card">
                     <img
+                      class="card-img-top"
                       src="https://imagizer.imageshack.com/img923/2930/10oTrn.png"
                       alt="tecnical documentation"
                     />
@@ -349,6 +355,7 @@ export default function App() {
                 >
                   <div className="card">
                     <img
+                      class="card-img-top"
                       src="https://imagizer.imageshack.com/img922/8867/p1gj4n.png"
                       alt="portfolio"
                     />
