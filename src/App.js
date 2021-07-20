@@ -74,7 +74,7 @@ export default function App() {
                 <p
                   data-aos="fade-up"
                   id="base"
-                  data-aos-offset="30"
+                  data-aos-offset="40"
                   data-aos-delay="200"
                   data-aos-duration="500"
                 >
@@ -104,7 +104,7 @@ export default function App() {
                 id="about"
                 data-aos="fade-right"
                 data-aos-delay="300"
-                data-aos-offset="200"
+                data-aos-offset="50"
                 data-aos-duration="1000"
               >
                 ABOUT ME
@@ -453,6 +453,21 @@ export default function App() {
         <script
           src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
           type="text/javascript"
+        />
+
+        <script
+          {...$(function() {
+            $(window).scroll(function() {
+              if ($(document).scrollTop() >= 5) {
+                $('#caja').css('animation', 'pruebamov 1s 1');
+                $('#caja').css('animation-fill-mode', 'forwards');
+              }
+              if ($(document).scrollTop() == 0) {
+                $('#caja').css('animation', 'pruebamov2 1s 1');
+                $('#caja').css('animation-fill-mode', 'forwards');
+              }
+            });
+          })}
         />
       </body>
     </div>
