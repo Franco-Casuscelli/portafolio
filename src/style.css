@@ -618,3 +618,17 @@ body {
   text-decoration: none;
   color: #ec5353;
 }
+.ir-arriba {
+  display: none;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  color: #212529;
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 2;
+}
+.ir-arriba:hover {
+  color: #343536;
+}

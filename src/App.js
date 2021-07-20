@@ -74,7 +74,7 @@ export default function App() {
                 <p
                   data-aos="fade-up"
                   id="base"
-                  data-aos-offset="40"
+                  data-aos-offset="60"
                   data-aos-delay="200"
                   data-aos-duration="500"
                 >
@@ -97,6 +97,12 @@ export default function App() {
             />
           </div>
         </div>
+        <a class="ir-arriba" title="Volver arriba">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x" />
+            <i class="fa fa-arrow-up fa-stack-1x fa-inverse" />
+          </span>
+        </a>
         <div className="container-fluid">
           <div className="row" id="boorar">
             <div className="col-12">
