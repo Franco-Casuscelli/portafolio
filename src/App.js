@@ -159,7 +159,7 @@ export default function App() {
                   aria-pressed="false"
                 >
                   <a
-                    href="https://drive.google.com/file/d/1s1VKueCZDlLbA--vN8B-b4YetQ-fU15C/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1Gl0eFanCXqPUjUr6u0kXpUsPRdZK0Xt3/view?usp=sharing"
                     download
                     target="_blank"
                   >
@@ -173,7 +173,7 @@ export default function App() {
                   aria-pressed="false"
                 >
                   <a
-                    href="https://drive.google.com/file/d/1Tg45DHMbnzFsqGYo03r_Ye5Gf9jPUR0Z/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1wAnONBmF0qRWWJwsER1hXIitzLBIf20m/view?usp=sharing"
                     download
                     target="_blank"
                   >
@@ -207,6 +207,7 @@ export default function App() {
                 <div
                   className="col mb-4"
                   data-aos="fade-up"
+                  data-aos-delay="100"
                   data-aos-duration="1000"
                 >
                   <div className="card">
@@ -232,6 +233,7 @@ export default function App() {
                 <div
                   className="col mb-4"
                   data-aos="fade-up"
+                  data-aos-delay="100"
                   data-aos-duration="1000"
                 >
                   <div className="card">
@@ -257,6 +259,7 @@ export default function App() {
                 <div
                   className="col mb-4"
                   data-aos="fade-up"
+                  data-aos-delay="100"
                   data-aos-duration="1000"
                 >
                   <div className="card">
@@ -282,6 +285,7 @@ export default function App() {
                 <div
                   className="col mb-4"
                   data-aos="fade-up"
+                  data-aos-delay="100"
                   data-aos-duration="1000"
                 >
                   <div className="card">
@@ -307,6 +311,7 @@ export default function App() {
                 <div
                   className="col mb-4"
                   data-aos="fade-up"
+                  data-aos-delay="100"
                   data-aos-duration="1000"
                 >
                   <div className="card">
@@ -332,6 +337,7 @@ export default function App() {
                 <div
                   className="col mb-4"
                   data-aos="fade-up"
+                  data-aos-delay="100"
                   data-aos-duration="1000"
                 >
                   <div className="card">
@@ -359,6 +365,7 @@ export default function App() {
                 <div
                   className="col mb-4"
                   data-aos="fade-up"
+                  data-aos-delay="100"
                   data-aos-duration="1000"
                 >
                   <div className="card">
