@@ -90,6 +90,10 @@
     color: #d5d5d5;
     letter-spacing: 0.05em;
   }
+  .arrow {
+    left: 45%;
+    top: calc(95vh);
+  }
 }
 @media (min-width: 427px) and (max-width: 769px) {
   #saludo {
@@ -155,6 +159,10 @@
     font-family: 'Lato', sans-serif;
     color: #d5d5d5;
     letter-spacing: 0.05em;
+  }
+  .arrow {
+    left: 43%;
+    top: calc(90vh);
   }
 }
 @media (min-width: 376px) and (max-width: 426px) {
@@ -233,6 +241,10 @@
   .card-title {
     font-size: 14px;
   }
+  .arrow {
+    left: 35%;
+    top: calc(85vh);
+  }
 }
 @media (min-width: 321px) and (max-width: 375px) {
   #saludo {
@@ -309,6 +321,10 @@
   }
   .card-title {
     font-size: 14px;
+  }
+  .arrow {
+    left: 35%;
+    top: calc(85vh);
   }
 }
 @media (max-width: 320px) {
@@ -387,6 +403,10 @@
   .card-title {
     font-size: 14px;
   }
+  .arrow {
+    left: 35%;
+    top: calc(85vh);
+  }
 }
 @media (min-width: 1026px) {
   #saludo {
@@ -464,10 +484,20 @@
     color: white;
     text-align: center;
   }
+  .arrow {
+    left: 45%;
+    top: calc(90vh);
+  }
 }
 @media (min-width: 769px) {
   .card {
     width: 60%;
+  }
+}
+@media (min-width: 2561px) {
+  .arrow {
+    left: 50%;
+    top: calc(95vh);
   }
 }
 #hola {
@@ -631,4 +661,37 @@ body {
 }
 .ir-arriba:hover {
   color: #343536;
+}
+
+.arrow {
+  position: absolute;
+  z-index: 50;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border-top: 1vmin solid white;
+  border-right: 1vmin solid white;
+  box-shadow: 0 0 0 lightgray;
+  transition: all 200ms ease;
+  transform: rotate(135deg);
+}
+
+.arrow .right {
+  right: 0;
+  transform: translate3d(0, -50%, 0) rotate(45deg);
+}
+
+.arrow:hover {
+  border-color: #343536;
+  box-shadow: 0.5vmin -0.5vmin 0 white;
+}
+
+.arrow:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -60%) rotate(45deg);
+  width: 200%;
+  height: 200%;
 }

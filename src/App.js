@@ -53,6 +53,7 @@ export default function App() {
         </div>
         <div className="container-fluid" id="borde">
           <div className="row" id="caja">
+            <a href="#" class="arrow right" />
             <div
               className="col-6"
               id="hola"
@@ -97,6 +98,7 @@ export default function App() {
             />
           </div>
         </div>
+
         <a class="ir-arriba" title="Volver arriba">
           <span class="fa-stack">
             <i class="fa fa-circle fa-stack-2x" />
