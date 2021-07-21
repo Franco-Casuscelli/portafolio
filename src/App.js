@@ -53,7 +53,7 @@ export default function App() {
         </div>
         <div className="container-fluid" id="borde">
           <div className="row" id="caja">
-            <a href="#" class="arrow right" />
+            <a class="arrow right" id="arrows" />
             <div
               className="col-6"
               id="hola"
@@ -476,10 +476,16 @@ export default function App() {
               if ($(document).scrollTop() >= 5) {
                 $('#caja').css('animation', 'pruebamov 1s 1');
                 $('#caja').css('animation-fill-mode', 'forwards');
+                $('#arrows').css('border-top', '1vmin solid #ec5353');
+                $('#arrows').css('border-right', '1vmin solid #ec5353');
+                $('#arrows').css('box-shadow', '0 0 0 #ec5353');
               }
               if ($(document).scrollTop() == 0) {
                 $('#caja').css('animation', 'pruebamov2 1s 1');
                 $('#caja').css('animation-fill-mode', 'forwards');
+                $('#arrows').css('border-top', '1vmin solid white');
+                $('#arrows').css('border-right', '1vmin solid white');
+                $('#arrows').css('box-shadow', '0 0 0 lightgray');
               }
             });
           })}

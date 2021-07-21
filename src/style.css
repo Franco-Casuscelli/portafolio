@@ -176,6 +176,7 @@
     font-weight: 600;
   }
   #texto-inicio {
+    z-index: 60;
     position: absolute;
     bottom: 0px;
     left: 0px;
